@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0vw;
+    margin: 0vw;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+
+    border: solid 1px #FF702A;
+    border-top: none;
+
+}
+
+.top-page {
+    display: flex;
+    justify-content: space-between;
+
+    background-color: #1E1D2B;
+    height: 10vh;
+    align-items: center;
+    padding: 0;
+
+}
+
+.top-page-f {
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #1E1D2B;
+    width: 100%;
+    height: 10vh;
+    align-items: center;
+    padding-left: 5em;
+    padding-right: 5em;
+}
+
+
+
+.foods-text {
+    padding-left: 3vw;
+    color: #FF702A;
+    font-size: 1.5vw;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 6%;
+    background-color: #1E1D2B;
+    color: white;
+    font-size: 2vh;
+    align-items: center;
+    padding: 1vw;
+    width: 7vw;
+}
+
+.menu:hover {
+    border: 2px solid #12B886
+}
+
+.first {
+    display: flex;
+    background-color: #1E1D2B;
+    height: 40vw;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 5vw;
+    padding-bottom: 15vh;
+    /* margin: 20px;
+    border:#FF702A; */
+}
+
+.text-inicio {
+    display: flex;
+    flex-direction: column;
+
+    width: 35vw;
+    height: 30vw;
+    background-color: #1E1D2B;
+    padding-top: 3vw;
+    padding-left: 7vw;
+    box-sizing: border-box;
+    line-height: 1.1rem;
+    justify-content: flex-start;
+    font-size: 9vh;
+}
+
+.titulo-p1 {
+    color: #FF702A;
+    padding-top: 8vh;
+    padding-bottom: 2vw;
+}
+
+.text-p1 {
+    font-size: 3vh;
+    color: white;
+    padding-bottom: 0.30vw;
+
+}
+
+.b-inicio {
+    display: flex;
+    justify-content: center;
+    background-color: #FF702A;
+    color: white;
+    font-size: 2vh;
+    align-items: center;
+    padding: 1vw;
+    width: 10vw;
+    height: 2vw;
+}
+
+.b-inicio:hover {
+    transform: scale(1.1);
+}
+
+.homeimg {
+    width: 30vw;
+}
+
+.labe_burguer {
+    display: none;
+}
+
+.menu_burguer {
+    display: none;
+}
+
+.ul_links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    gap: 2rem;
+    list-style-type: none;
+
+    li a {
+        text-decoration: none;
+    }
+}
+
+.link {
+    font-size: 1.2rem;
+    transition: all .3s;
+    padding: .2rem .7rem;
+}
+
+.link:hover {
+    background-color: #5f1192;
+}
+
+@media (max-width:780px) {
+    .top-page {
+        display: flex;
+        justify-content: space-between;
+        background-color: #1E1D2B;
+        height: 6vh;
+        align-items: center;
+        padding: 3vw;
+    }
+
+    .top-page-f {
+        display: flex;
+        position: fixed;
+        justify-content: space-between;
+        background-color: #1E1D2B;
+        width: 100vw;
+        height: 4vh;
+        align-items: center;
+        padding: 3vw;
+        padding-right: 8vw;
+    }
+
+    .foods-text {
+        padding-left: 3vw;
+        color: #FF702A;
+        font-size: 3.5vw;
+    }
+
+    .menu {
+        display: none;
+        justify-content: center;
+        border-radius: 6%;
+        background-color: #1E1D2B;
+        color: white;
+        font-size: 2vh;
+        align-items: center;
+        padding: 1vw;
+        width: 7vw;
+
+    }
+
+
+    .first {
+        display: flex;
+        background-color: #1E1D2B;
+        width: 100vw;
+        height: 130vw;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 4vw;
+        padding-bottom: 10vh;
+        /* margin: 20px;
+        border:#FF702A; */
+    }
+
+    .text-inicio {
+        display: flex;
+        flex-direction: column;
+        width: 80vw;
+        height: 50vw;
+        background-color: #1E1D2B;
+        padding-bottom: 10vw;
+        box-sizing: border-box;
+        line-height: 1.1rem;
+        justify-content: center;
+        align-items: center;
+        font-size: 5vh;
+        padding-right: 11vw;
+    }
+
+    .titulo-p1 {
+        color: #FF702A;
+        padding-top: 8vh;
+        padding-bottom: 5vw;
+    }
+
+    .text-p1 {
+        font-size: 3vh;
+        color: white;
+        padding-bottom: 3vw;
+
+    }
+
+    .b-inicio {
+        display: flex;
+        justify-content: center;
+        background-color: #FF702A;
+        color: white;
+        font-size: 2vh;
+        align-items: center;
+        width: 30vw;
+        height: 6vw;
+    }
+
+    .b-inicio:hover {
+        transform: scale(1.1);
+    }
+
+    .homeimg {
+        width: 50vw;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    ol,
+    ul {
+        list-style: none;
+    }
+
+
+    .top-page {
+        display: flex;
+        position: fixed;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        background-color: #1E1D2B;
+        width: 100vw;
+        height: 4vh;
+        align-items: center;
+        padding: 3vw;
+        padding-right: 8vw;
+    }
+
+    /* .navbar {
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 0 var(--padding_left_right);
+    } */
+
+    .menu_burguer {
+        display: none;
+    }
+
+    .ul_links {
+        display: none;
+    }
+
+    .menu_burguer:checked+.ul_links {
+
+        display: flex;
+        padding-top: 7em;
+        width: 100%;
+        background-color: #2C2B47;
+        height: 100vh;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 3rem;
+        transition: all .3s;
+
+        .li_links {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            height: 4em;
+            align-self: center;
+
+            a {
+                color: white;
+                font-size: 2em;
+            }
+        }
+
+        .menu {
+            display: flex;
+            font-size: 4em;
+            color: white;
+            background-color: #2C2B47;
+            font-weight: bold;
+            padding: 0;
+            margin: 0;
+        }
+    }
+
+    .logo {
+        color: white;
+    }
+
+    .labe_burguer {
+        display: flex;
+    }
+
+    .list_icon {
+        color: white;
+        cursor: pointer;
+    }
+
+
+
+
+}

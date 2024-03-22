@@ -1,0 +1,136 @@
+.second {
+    display: flex;
+    background-color: #1E1D2B;
+    height: 40vw;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 5vw;
+    padding-bottom: 15vh;
+    border: solid 1px #FF702A;
+    border-top: none;
+}
+
+.mini-title {
+    color: #FF702A;
+    font-size: small;
+}
+
+.titulo-p2 {
+    display: flex;
+    flex-direction: row;
+    color: #fcfcfc;
+    padding-top: 3vh;
+    padding-bottom: 0vw;
+}
+
+.text-second {
+    display: flex;
+    flex-direction: column;
+    width: 35vw;
+    height: 30vw;
+    background-color: #1E1D2B;
+    padding-top: 5vw;
+    padding-right: 7vw;
+    box-sizing: border-box;
+    line-height: 1.1rem;
+    justify-content: flex-start;
+    font-size: 5vh;
+}
+
+/* .title-des {
+    display: flex;
+    flex-direction: row;
+} */
+.text-p2 {
+
+    font-size: 2vh;
+    color: white;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+
+}
+
+.aboutimg {
+    width: 30vw;
+}
+
+.b-second {
+    display: flex;
+    justify-content: center;
+    background-color: #FF702A;
+    color: white;
+    font-size: 2vh;
+    align-items: center;
+    padding: 1vw;
+    width: 10vw;
+    height: 2vw;
+}
+
+.b-second:hover {
+    transform: scale(1.1);
+}
+
+@media (max-width: 780px) {
+    .second {
+        display: flex;
+        background-color: #1E1D2B;
+        height: 170vw;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 15vw;
+        padding-bottom: 15vh;
+        padding-left: 5vw;
+        border: solid 1px #FF702A;
+        border-top: none;
+    }
+
+    .text-second {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 70vw;
+        height: 70vw;
+        padding-bottom: 3vw;
+        background-color: #1E1D2B;
+        box-sizing: border-box;
+        line-height: 1.1rem;
+        align-items: center;
+        font-size: 5vh;
+    }
+
+    .titulo-p2 {
+        display: flex;
+        color: #fcfcfc;
+        padding-top: 2.5vh;
+        line-height: 9vw;
+    }
+
+    .text-p2 {
+        text-align: center;
+        font-size: 2vh;
+        color: white;
+        padding-top: 7vw;
+        padding-bottom: 5vw;
+
+    }
+
+    .aboutimg {
+        padding-top: 30vw;
+        width: 50vw;
+    }
+
+    .b-second {
+        display: flex;
+        justify-content: center;
+        background-color: #FF702A;
+        color: white;
+        font-size: 2vh;
+        align-items: center;
+        padding: 1vw;
+        width: 30vw;
+        height: 6vw;
+
+    }
+}

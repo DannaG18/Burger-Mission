@@ -1,0 +1,215 @@
+.end {
+    display: flex;
+    flex-direction: row;
+    background-color: #1E1D2B;
+    height: 20vw;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3vw;
+    padding-bottom: 10vh;
+    border: solid 1px #FF702A;
+    border-top: none;
+}
+
+.sub1 {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 30vw;
+    height: 17vw;
+    background-color: #1E1D2B;
+    padding: 1vw;
+    /* border: solid 1px black; */
+    box-sizing: border-box;
+    line-height: 1.1rem;
+    margin-right: 0vw;
+    font-size: 0.90vw;
+}
+
+.sub2 {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 30vw;
+    height: 17vw;
+    background-color: #1E1D2B;
+    padding: 1vw;
+    /* border: solid 1px black; */
+    box-sizing: border-box;
+    line-height: 1.1rem;
+    margin-right: 0vw;
+    font-size: 0.90vw;
+}
+
+.box1-end {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 15vw;
+    height: 15vw;
+    background-color: #1E1D2B;
+    padding: 2vw;
+    /* border: solid 1px black; */
+    box-sizing: border-box;
+    line-height: 1.1rem;
+    margin-right: 0vw;
+    font-size: 0.90vw;
+}
+
+.box2-end {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 20vw;
+    height: 15vw;
+    background-color: #1E1D2B;
+    padding: 2vw;
+    /* border: solid 1px black; */
+    box-sizing: border-box;
+    line-height: 1.1rem;
+    margin-right: 0vw;
+    font-size: 0.90vw;
+}
+
+.title-end {
+    padding-bottom: 0.55vw;
+    font-size: 1.1vw;
+}
+
+.linea {
+    border-color: #FF702A;
+    width: 3vw;
+}
+
+.box-circles {
+    display: flex;
+    flex-direction: row;
+    gap: 1vw;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    width: 2.3vw;
+    height: 2.3vw;
+    box-sizing: border-box;
+    border-radius: 100px;
+    background-color: #FF702A;
+    
+}
+
+.box-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 0.25vw;
+    padding-left: 0.23vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: none;
+
+}
+
+
+@media (max-width: 780px) {
+    .end {
+        display: flex;
+        flex-direction: column;
+        background-color: #1E1D2B;
+        height: 100vw;
+        justify-content: center;
+        align-items: center;
+        padding-top: 25vw;
+        padding-left: 15vw;
+        border: solid 1px #FF702A;
+        border-top: none;
+    }
+
+    .sub1 {
+        display: flex;
+        flex-direction: row;
+        width: 100vw;
+        height: 40vw;
+    }
+
+    .sub2 {
+        display: flex;
+        flex-direction: row;
+        width: 100vw;
+        height: 40vw;
+    }
+
+    .box1-end {
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 60vw;
+        height: 40vw;
+        background-color: #1E1D2B;
+        padding: 2vw;
+        /* border: solid 1px black; */
+        box-sizing: border-box;
+        line-height: 1.1rem;
+        margin-right: 0vw;
+        font-size: 2vw;
+    }
+
+    .box2-end {
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 60vw;
+        height: 40vw;
+        background-color: #1E1D2B;
+        padding: 2vw;
+        /* border: solid 1px black; */
+        box-sizing: border-box;
+        line-height: 1.1rem;
+        margin-right: 0vw;
+        font-size: 2vw;
+    }
+
+    .title-end {
+        padding-bottom: 0.55vw;
+        font-size: 4vw;
+    }
+
+    .linea {
+        border-color: #FF702A;
+        width: 10vw;
+    }
+    .box-circles {
+        display: flex;
+        flex-direction: row;
+        gap: 1vw;
+        /* flex-wrap: wrap; */
+        justify-content: space-between;
+        width: 8vw;
+        height: 8vw;
+        /* padding-top: 1vw; */
+        box-sizing: border-box;
+        border-radius: 100px;
+        background-color: #FF702A;
+        
+    }
+    
+    .box-icons {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-top: 0.80vw;
+        padding-left: 0.80vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+        background-color: none;
+    
+    }
+    
+}
